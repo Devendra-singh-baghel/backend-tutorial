@@ -1,0 +1,21 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Express JS Tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Backend"
+  ],
+  "author": "Devendra Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11"
+  }
+}

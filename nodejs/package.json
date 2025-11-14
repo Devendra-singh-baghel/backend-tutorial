@@ -1,0 +1,18 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "node js learning process",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "Devendra Singh",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.3.6"
+  }
+}
