@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        background: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 380px;
+        padding: 20px;
+      }
+
+      .signup-box {
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .signup-box h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .input-group {
+        margin-bottom: 15px;
+      }
+
+      .input-group label {
+        font-size: 14px;
+        color: #555;
+      }
+
+      .input-group input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 6px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        outline: none;
+        transition: border 0.2s ease;
+      }
+
+      .input-group input:focus {
+        border-color: #555;
+      }
+
+      .btn {
+        width: 100%;
+        padding: 10px;
+        background: #333;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+      .btn:hover {
+        background: #000;
+      }
+
+      .signin-text {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 14px;
+      }
+
+      .signin-text a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="signup-box">
+        <h2>Sign Up</h2>
+
+        <div class="input-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter your name" required />
+        </div>
+
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email" required />
+        </div>
+
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" placeholder="Create a password" required />
+        </div>
+
+        <div class="input-group">
+          <label>Confirm Password</label>
+          <input type="password" placeholder="Confirm your password" required />
+        </div>
+
+        <button type="submit" class="btn">Sign Up</button>
+
+        <p class="signin-text">
+          Already have an account?
+          <a href="/">Login</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
